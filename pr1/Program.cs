@@ -15,12 +15,10 @@ namespace pr1
             for (int z = 0; z < 99999; z++)
             {
                 Console.WriteLine();
-                Console.WriteLine($" ┌─────────────────────МЕНЮ─────────────────────┐");
-                Console.WriteLine($" │ 1. Заполнить.                                │");
-                Console.WriteLine($" │ 2. Вывести.                                  │");
-                Console.WriteLine($" │ 3. Очистить консоль.                         │");
-                Console.WriteLine($" │ 4. Выйти из программы.                       │");
-                Console.WriteLine($" └──────────────────────────────────────────────┘");
+                Console.WriteLine($"1. Заполнить.");
+                Console.WriteLine($"2. Вывести.");
+                Console.WriteLine($"3. Очистить консоль.");
+                Console.WriteLine($"4. Выйти из программы.");
                 Console.Write(" Выберите команду: ");
                 int x1 = Convert.ToInt16(Console.ReadLine());
                 Console.WriteLine();
